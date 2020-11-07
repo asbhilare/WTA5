@@ -1,0 +1,356 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.navbar-style {
+    box-shadow: 0px 5px 10px red;
+    text-transform: uppercase;
+    background-color: white;
+}
+
+.logo {
+    float: left;
+    height: 130px;
+    padding: 3px;
+}
+
+.navbar-nav {
+    font-size: large;
+}
+
+    .navbar-nav a:hover {
+        color: orangered;
+    }
+
+.company {
+    display: inline;
+    color: red;
+    font-size: x-large;
+    padding: 10px;
+    position: relative;
+    top: 40px;
+}
+
+.icon-bar {
+    background: darkorange;
+}
+
+li a {
+    color: black;
+}
+
+.main {
+    border: 2px solid black;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 300px;
+    
+}
+
+.column {
+    float: left;
+    width: 30%;
+    margin: 1%;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+.Description {
+    text-align: center;
+}
+
+#home {
+    background-color: rgb(171, 233, 214);
+}
+
+.Data {
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+    height: auto;
+    background-color: rgb(171, 233, 214);
+    padding: 0px;
+}
+
+    .Data div {
+        margin-top: 0px;
+        margin-left: 0px;
+        Position: relative;
+        left: 10%;
+        float: left;
+        width: 30%;
+        background-color: rgb(136, 231, 40);
+    }
+
+h3 {
+    color: black;
+    text-align: center;
+}
+
+#box1 {
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 3px;
+    color: darkorange;
+    margin: 8px 8px 5px 15px;
+}
+
+    #box1:hover {
+        box-shadow: 0px 0px 10px 0.8px black;
+    }
+
+    #box1 img {
+        width: 280px;
+        height: 280px;
+    }
+
+.Desc {
+    text-align: justify;
+    width: 380px;
+    height: auto;
+}
+
+.Info {
+    border: 2px solid black;
+    width: 60%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    position: relative;
+    left: 20%;
+    color: black;
+    background-color: rgb(151, 211, 211);
+}
+
+.Register {
+    border: 2px solid black;
+    width: 60%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    position: relative;
+    left: 30%;
+    color: black;
+    background-color: yellow ;
+}
+
+.Bio {
+    background-color: white;
+    border: 2px solid black;
+    width: 60%;
+    margin: 10px 0px 10px 25%;
+}
+
+.Details {
+    overflow: hidden;
+    margin: 80px;
+    height: 170px;
+    width: 88%;
+    display: inline-block;
+    border-style: solid;
+    font-size: 140%;
+    background-color: floralwhite;
+}
+
+.Copyright {
+    float : right; 
+    color: darkslategrey;
+    position: relative;
+    //left: 50%;
+    bottom: 55%;
+    margin: 50px;
+    font-size: 80%;
+}
+
+.social-icons {
+    text-align: center;
+}
+
+    .social-icons p {
+        display: inline-block;
+        list-style-type: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+    }
+
+        .social-icons p a {
+            border-bottom: none;
+        }
+
+        .social-icons p img {
+            width: 70px;
+            height: 70px;
+            margin-right: 20px;
+        }
+
+.c1 {
+    border: 1px solid rgba(0, 0, 0, 0.219);
+    padding: 20px;
+    padding-top: 8px;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+    .c1:hover {
+        box-shadow: 0px 0px 10px 0.5px rgba(0, 0, 0, 0.521);
+    }
+
+#demo1 {
+    margin-top: 50px;
+}
+
+.i1 {
+    position: relative;
+    bottom: -20px;
+    left: 0px;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.205);
+    color: black;
+    text-align: center;
+}
+
+.footer1 {
+    position: relative;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.205);
+    color: black;
+    text-align: center;
+}
+
+ul {
+    margin: auto;
+    display: block;
+}
+
+    ul li {
+        list-style: none;
+        float: left;
+        margin-top: 30px;
+    }
+
+        ul li a {
+            border: 2px solid black;
+            margin: 3px;
+            padding: 6px 20px;
+            text-decoration: none;
+            background-color: rgb(85, 199, 151);
+        }
+
+.active {
+    color: red;
+    background-color: aliceblue;
+}
+
+@media screen and (max-width: 700px) {
+    .column {
+        width: 50%;
+    }
+
+    #box1 img {
+        width: 170px;
+        height: 130px;
+    }
+
+    #box1 {
+        width: auto;
+        height: auto;
+        margin: 3px;
+    }
+
+    h3 {
+        color: black;
+        text-align: center;
+        font-size: 100%;
+    }
+
+    .main {
+        width: 100%;
+        height: 350px;
+    }
+
+    .Data {
+        margin-left: -30px;
+    }
+
+    .Comp {
+        width: 100%;
+        height: 50px;
+    }
+
+    .Details {
+        overflow: hidden;
+        margin: 0px;
+        height: auto;
+        width: 100%;
+        display: inline-block;
+        border-style: solid;
+        font-size: 100%;
+        background-color: turquoise;
+    }
+
+    .Copyright {
+        color: Black;
+        position: relative;
+        left: 1px;
+        margin: 0px;
+        font-size: 140%;
+    }
+
+    .Register {
+        border: 2px solid black;
+        width: 50%;
+        margin-top: 15px;
+        margin-bottom: 25px;
+        margin-left: -100px;
+        padding-bottom: 10px;
+        color: black;
+        background-color: rgb(151, 211, 211);
+    }
+
+    .c1 {
+        margin-top: 20px;
+    }
+
+    .Bio {
+        border: 2px solid black;
+        width: 90%;
+        margin-left: 5%;
+        font-size: smaller;
+    }
+
+    .Info {
+        border: 2px solid black;
+        width: 93%;
+        margin-left: -63px;
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .column {
+        width: 50%;
+    }
+
+    #box1 img {
+        width: 150px;
+        height: 120px;
+    }
+
+    h3 {
+        color: black;
+        text-align: center;
+        font-size: 90%;
+    }
+}
